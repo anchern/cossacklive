@@ -1,0 +1,66 @@
+# Unreal Engine 5 Git Ignore Template
+
+# Build & Intermediate
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+.vscode/
+.vs/
+*.VC.db
+*.VC.opendb
+
+# Compiled files
+*.exe
+*.dll
+*.pdb
+*.lib
+*.app
+*.dylib
+*.ipa
+
+# Unreal Engine user files
+*.suo
+*.user
+*.userprefs
+*.sln.docstates
+
+# Logs
+*.log
+*.tlog
+*.tmp
+
+# Backups & autosaves
+*.bak
+*_Backup_*
+*_Autosave.*
+
+# Local configuration
+Config/DefaultEditor.ini
+Config/DefaultEditorPerProjectUserSettings.ini
+Config/DefaultEngine.ini
+Config/DefaultInput.ini
+
+# Ignore IDE folders
+.idea/
+.vs/
+.DS_Store
+
+# Plugin intermediate files
+Plugins/*/Intermediate/
+Plugins/*/Binaries/
+
+# Ignore other local data
+Saved/
+DerivedDataCache/
+
+# Ignore packaged builds
+Build/
+WindowsNoEditor/
+LinuxNoEditor/
+MacNoEditor/
+
+# Ignore local environment files
+*.bat
+*.cmd
+.env
