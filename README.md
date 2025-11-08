@@ -1,6 +1,7 @@
-# 🏴‍☠️ CossackLive
+# 🗡️ CossackLive
 
 **Solo RPG prototype (UE5)** — core loop: camp → quest → skirmish → loot → rest.
+
 Target: 60 FPS @1080p, single-player, client-side.
 
 ---
@@ -28,6 +29,9 @@ Target: 60 FPS @1080p, single-player, client-side.
 
 ## 📜 Git Commit Convention
 feat: inventory component
+
 fix: camera zoom limits
+
 docs: repo structure
+
 chore: init LFS + repo
